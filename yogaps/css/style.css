@@ -1,0 +1,1671 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Myriad Pro;
+    src: url("../fonts/Myriad\ Pro\ Regular/");
+}
+
+@font-face {
+    font-family: Lucida Bright;
+    src: url("../fonts/Myriad\ Pro\ Regular/");
+}
+
+h1,
+h2 {
+    font-size: 62px;
+    font-family: Lucida Bright, sans-serif;
+}
+
+h3,
+h5 {
+    font-family: "Myriad Pro", sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Myriad Pro", sans-serif;
+    line-height: 30px;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+
+
+img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1270px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.all-btn a {
+    border: 2px solid #9b315d;
+    padding: 11px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #9b315d;
+    text-transform: capitalize;
+}
+
+header {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 50px;
+    /* background-color: yellow; */
+}
+
+.nav-contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-part {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: relative;
+}
+
+.logo-part .logo {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo-part .logo img {
+    height: 70px;
+}
+
+.logo-part .logo p {
+    margin-left: 13px;
+    font-size: 52px;
+}
+
+.logo-part .logo p::first-letter {
+    color: #2e0f1c;
+}
+
+.logo-part .logo .asan {
+    color: #9b315d;
+}
+
+.logo-part .toggler {
+    color: #9b315d;
+    font-size: 40px;
+    display: none;
+}
+
+/* .nav-links {
+    padding-top: 35px;
+    padding-bottom: 35px;
+} */
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul li {
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
+.nav-links ul li a {
+    font-size: 24px;
+    color: white;
+}
+
+.nav-links .active {
+    color: #9b315d;
+}
+
+.nav-links .bars-icon {
+    color: #9b315d;
+    font-size: 40px;
+}
+
+
+/* banner start */
+
+.banner {
+    background-image: url("../Asset/Bannerimg.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.banner-content {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blank-banner {
+    width: 60%;
+}
+
+.banner-text {
+    /* background-color: green; */
+    width: 40%;
+    padding-top: 170px;
+}
+
+.banner-text h1 {
+    font-size: 62px;
+    margin-bottom: 40px;
+}
+
+.banner-text h1 span {
+    color: white;
+}
+
+.banner-text h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 24px;
+}
+
+
+/* philosophy */
+
+.philosophy {
+    padding: 70px 0;
+    background-color: #f5f5f5;
+}
+
+.philosophy-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.philo-left h2 {
+    font-size: 62px;
+    text-transform: uppercase;
+    margin-bottom: 51px;
+    margin-top: 37px;
+}
+
+.philo-left h2 span {
+    background-color: #ef77aa;
+    border-radius: 2px;
+    color: white;
+    padding: 0 10px;
+}
+
+.philo-left,
+.philo-right {
+    font-size: 18px;
+}
+
+.philo-left .para1 {
+    margin-bottom: 47px;
+}
+
+.philo-left,
+.philo-right {
+    width: 50%;
+}
+
+.philo-btn a {
+    border: 2px solid #9b315d !important;
+    color: #c62a6b !important;
+}
+
+.philo-btn {
+    margin-top: 40px;
+}
+
+/* yoga-class */
+.yoga-class {
+    padding: 70px 0;
+    padding-bottom: 70px 17px;
+    background-color: #eeeeee;
+}
+
+.yoga-card-container {
+    display: flex;
+}
+
+.yoga-cards {
+    width: 33.33%;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.yoga-card-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.yoga-card-imges img {
+    width: 300px;
+}
+
+.yoga-card-imges img {
+    border: 2px solid #f2a7c7;
+    border-radius: 50%;
+    padding: 21px;
+}
+
+.yoga-title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.yoga-title span {
+    color: #ef77aa;
+}
+
+.yoga-title h3 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.yoga-text p {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.yoga-f-card-btn {
+    margin-top: 40px;
+}
+
+/*yfb*/
+.yfb {
+    padding-top: 70px;
+    padding-bottom: 140px;
+}
+
+.yfb-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yfb-left {
+    width: 60%;
+}
+
+.yfb-left h2 {
+    margin-bottom: 60px;
+}
+
+.yfb-left h2 span {
+    background-color: #ef77aa;
+    color: white;
+    padding: 0 8px;
+    border-radius: 3px;
+}
+
+.yfb-left .para1 {
+    margin-bottom: 50px;
+}
+
+.yfb-right {
+    width: 30%;
+    position: relative;
+}
+
+.yfb-layer {
+    width: 382px;
+    height: 525px;
+    background-color: #f5f5f5;
+}
+
+.yfb-right img {
+    position: absolute;
+    top: 44px;
+    right: 49px;
+}
+
+.yfb-btn {
+    margin-top: 53px;
+}
+
+/* review */
+
+.review {
+    background-color: #f5f5f5;
+    padding: 27px 0;
+}
+
+.review-container {
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.review-left-part,
+.review-right-part {
+    width: 50%;
+    /* position: relative; */
+}
+
+
+.review-left-part {
+    position: relative;
+}
+
+.review-right-part {
+    position: relative;
+}
+
+.review-right-part p {
+    font-size: 32px;
+    text-align: center;
+    font-style: italic;
+    line-height: 47px;
+    margin-right: 175px;
+}
+
+.review-img img {
+    height: 300px;
+    width: 300px;
+    margin-left: 170px;
+}
+
+.fa-less-than {
+    background-color: #9b315d;
+    padding: 24px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 43px;
+}
+
+.greatter-then {
+    background-color: #9b315d;
+    padding: 24px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 43px;
+}
+
+.review-right-part h5 {
+    margin-left: 295px;
+    color: #9b315d;
+    font-size: 24px;
+}
+
+/* registration */
+.reg {
+    padding-bottom: 70px;
+}
+
+.reg-left-part {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reg-right {
+    width: 50%;
+}
+
+.reg-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reg-left-part h2 {
+    background-color: #e277a4;
+    display: inline-block;
+    padding: 0 8px;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 40px
+}
+
+.reg-left-part h3 {
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.reg-left-part p {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.reg-btn {
+    margin-top: 40px;
+}
+
+.first-class {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.first-card-item {
+    width: 33%;
+}
+
+.first-card-text {
+    background-color: #9b315d;
+    padding: 15px;
+}
+
+/* first card */
+.first-card-text h3 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.first-card-text p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.first-class-btn a {
+    color: white;
+    padding: 0;
+}
+
+.first-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* methodology */
+
+.methodology {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.method-left,
+.method-right {
+    width: 50%;
+}
+
+.methodology-content {
+    display: flex;
+}
+
+
+.method-top-content h2 span {
+    background-color: #e277a4;
+    padding: 0 8px;
+    border-radius: 3px;
+    color: white;
+}
+
+.method-top-content h2 {
+    margin-bottom: 70px;
+}
+
+.method-btn {
+    margin-top: 50px;
+}
+
+.methodology-content .method-left .methodtext1 {
+    margin-bottom: 50px;
+}
+
+
+/* theraphy */
+.theraphy {
+    background-image: url("../Asset/Rectangle\ 10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.theraphhy-text-container {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay1 {
+    background-color: #0a0a0a47;
+}
+
+.theraphy-text {
+    color: white;
+    position: relative;
+}
+
+.theraphy-text h2 {
+    margin-bottom: 40px;
+}
+
+.theraphy-text h3 {
+    font-size: 38px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.theraphy-text h3::before {
+    content: url("../Asset/Arrow.png");
+    position: absolute;
+    left: 0px;
+}
+
+/* footer */
+footer {
+
+    background-color: #9b315d;
+
+}
+
+.footer-content {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 188px;
+    color: white;
+    position: relative;
+    /* Establishes a positioning context for the ::after element */
+}
+
+.footer-content::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-text h4 {
+    font-family: Lucida Bright, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.social-icon-container i {
+    font-size: 30px;
+}
+
+.social-icon-container .fa-brands {
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 50px;
+    margin-right: 25px;
+}
+
+.copyright {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+/* responsive */
+@media screen and (max-width:1440px) {
+    .logo-part .logo img {
+        height: 75px;
+    }
+
+    .banner-text {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .logo-part .logo img {
+        height: 70px;
+    }
+
+    .logo-part .logo p {
+        font-size: 45px;
+    }
+
+    /*banner */
+    .banner-text h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    /* yfb */
+    .yfb-layer {
+        width: 355px;
+        height: 501px;
+        background-color: #f5f5f5;
+    }
+
+    .yfb {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    /* foorter */
+    .social-icon-container .fa-brands {
+        border: 1px solid white;
+        padding: 15px;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width:1199px) {
+
+    html,
+    body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .navbar {
+        background-color: #e58bb0;
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .logo-part {
+        position: static;
+    }
+
+    .logo-part .toggler {
+        display: block;
+    }
+
+    .logo-part .toggler-main {
+        position: absolute;
+        top: 50px;
+        right: 40px;
+        font-size: 30px;
+    }
+
+    .nav-contant {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px;
+    }
+
+    .nav-links .bars-icon {
+        color: #e277a4;
+        font-size: 35px;
+        display: none;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        display: none;
+    }
+
+    .display-nav-menu {
+        display: block;
+    }
+
+    .nav-links ul li {
+        margin-left: 0;
+        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
+    }
+
+    .navbarP {
+        margin-top: 0;
+    }
+
+    /* philosophy */
+    .philosophy {
+        padding: 40px 0;
+        background-color: #f5f5f5;
+    }
+
+    .philo-left h2 {
+        font-size: 50px;
+        text-transform: uppercase;
+        margin-bottom: 51px;
+        margin-top: 37px;
+    }
+
+    /* yoga */
+    /* .yoga-class {
+        padding: 40px 0;
+    } */
+
+    .yoga-title h3 {
+        font-size: 25px;
+    }
+
+    /* yfb */
+    .yfb-left h2 {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    .yfb-left .para1 {
+        margin-bottom: 35px;
+    }
+
+    .yfb-btn {
+        margin-top: 37px;
+    }
+
+    .yfb-right img {
+        position: absolute;
+        top: 65px;
+        right: 49px;
+    }
+
+    /* review */
+    .fa-greater-than {
+        right: 0;
+    }
+
+    .fa-less-than {
+        left: 0;
+    }
+
+    .review-right-part p {
+        font-size: 30px;
+        margin-right: 57px;
+    }
+
+    .review-right-part h5 {
+        font-size: 22px;
+    }
+
+    .review-img img {
+        height: 300px;
+        width: 300px;
+        margin-left: 122px;
+    }
+
+    /* registration */
+
+    .reg-left-part h2 {
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+
+    .reg-left-part h3 {
+        font-size: 37px;
+        margin-bottom: 25px;
+    }
+
+    .reg-btn {
+        margin-top: 30px;
+    }
+
+    /* foooter */
+
+    .footer-content {
+        padding: 70px 0;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        color: white;
+        position: relative;
+        justify-content: space-around
+    }
+
+    .social-icon-container .fa-brands {
+        padding: 10px;
+    }
+
+    .social-icon-container i {
+        font-size: 26px;
+    }
+}
+
+
+
+@media screen and (max-width:990px) {
+    .all-btn a {
+        border: 2px solid #9b315d;
+        padding: 10px 15px;
+        border-radius: 50px;
+        font-size: 18px;
+        color: #9b315d;
+        text-transform: capitalize;
+    }
+
+    /* banner */
+    .banner-text h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .banner-text h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .blank-banner {
+        width: 0%;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner {
+        background-image: url("../Asset/Bannerimg.png");
+        background-color: #0a0a0a;
+    }
+
+    .overlay {
+        background-color: #0e0e0e5a;
+    }
+
+    .banner {
+        background-position: left;
+    }
+
+    .banner-text h1 {
+        color: #ffff;
+        font-size: 44px;
+    }
+
+    .banner-text h1 span {
+        color: #c62a6b;
+    }
+
+    .banner-text h2 {
+        color: #ffffffdb;
+        font-size: 28px;
+    }
+
+    .banner-text p {
+        color: rgb(236, 234, 234);
+    }
+
+    .banner-btn a {
+        border: 2px solid white;
+        color: white;
+    }
+
+    /* philosophy */
+    .philosophy {
+        padding: 65px 0;
+    }
+
+    .philosophy-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .philo-left {
+        width: 100%;
+    }
+
+    .philo-left .para1 {
+        margin-bottom: 30px;
+    }
+
+    .philo-left h2 {
+        font-size: 40px;
+        margin-bottom: 35px;
+        margin-top: 0px;
+    }
+
+    .philo-right {
+        width: 40%;
+    }
+
+    /* yoga */
+
+    .yoga-class {
+        padding: 45px 0;
+    }
+
+    .yoga-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .yoga-cards {
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .yoga-title {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .yoga-card-2 {
+        background: none;
+    }
+
+    /* yfb */
+    .yfb {
+        padding: 65px 0;
+    }
+
+    .yfb-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .yfb-left {
+        width: 100%;
+        margin-bottom: 31px;
+    }
+
+    .yfb-left h2 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .yfb-right {
+        width: 40%;
+        position: static;
+    }
+
+    .yfb-layer {
+        width: 0;
+        height: 0;
+        background: none;
+    }
+
+    .yfb-right img {
+        position: static;
+        top: 0;
+        right: 0;
+    }
+
+    /* review */
+    .greatter-then {
+        display: none;
+    }
+
+    .fa-less-than {
+        display: none;
+    }
+
+    .review-left-part,
+    .review-right-part {
+        width: 100%;
+    }
+
+    .review-img {
+        text-align: center;
+    }
+
+    .review-img img {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .review-right-part p {
+        margin: 0;
+        text-align: center;
+    }
+
+    .review-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .review-right-part h5 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* registration */
+    .reg-main {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .reg-left-part {
+        width: 100%;
+    }
+
+    .reg-btn {
+        margin-bottom: 35px
+    }
+
+    .reg {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .reg-right {
+        width: 60%;
+    }
+
+    /* first class */
+    .first-class-btn a {
+        color: white;
+        padding: 0;
+    }
+
+    .first-class {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .first-class-btn a {
+        color: white;
+    }
+
+    .first-card-item {
+        width: 75%;
+        margin-bottom: 30px;
+    }
+
+    .first-card-container {
+        flex-direction: column;
+    }
+
+    /* method-ology */
+    .methodology {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .method-top-content h2 {
+        margin-bottom: 45px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .methodology-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .method-left {
+        width: 90%;
+    }
+
+    .method-left {
+        width: 90%;
+        padding-bottom: 50px;
+    }
+
+    .methodology-content .method-left .methodtext1 {
+        margin-bottom: 20px;
+    }
+
+    /* theraphy */
+    .theraphy-text h2 {
+        margin-bottom: 25px;
+        font-size: 50px;
+    }
+
+    .theraphy-text h3 {
+        font-size: 35px;
+        margin-bottom: 25px;
+        margin-left: 50px;
+    }
+
+    .theraphy {
+        background-position: center;
+    }
+
+    /* footer */
+    .footer-content {
+        padding: 65px 0;
+        display: flex;
+        align-items: center;
+        gap: 101px;
+        color: white;
+        position: relative;
+        justify-content: space-evenly;
+    }
+
+    .footer-text h4 {
+        font-family: Lucida Bright, sans-serif;
+        font-size: 32px;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .all-btn a {
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+
+    .first-class-btn a {
+        color: white;
+        padding: 0;
+    }
+
+    /* navbar */
+    .logo-part .logo p {
+        font-size: 40px;
+    }
+
+    .logo-part .logo img {
+        height: 60px;
+    }
+
+    .nav-links ul li a {
+        font-size: 18px;
+    }
+
+    .nav-links ul li {
+        margin-bottom: 15px;
+    }
+
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .nav-links ul {
+        padding-top: 10px;
+    }
+
+    .logo-part .toggler-main {
+        top: 35px;
+        right: 30px;
+        font-size: 30px;
+    }
+
+    /* banner */
+    .banner {
+        background-size: 163% 100%;
+    }
+
+    .banner-text h1 {
+        color: #ffff;
+        font-size: 36px;
+    }
+
+    .banner-text h2 {
+        color: #ffffffdb;
+        font-size: 25px;
+    }
+
+
+    /* philosophy */
+    .philosophy {
+        padding: 40px 0;
+        background-color: #f5f5f5;
+    }
+
+    .philo-left h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .philo-left .para1 {
+        margin-bottom: 25px;
+    }
+
+    .philo-right {
+        width: 55%;
+    }
+
+    /* yfb */
+    .yfb {
+        padding: 40px 0;
+    }
+
+    .yfb-right {
+        width: 50%;
+        position: static;
+    }
+
+    .review-right-part p {
+        text-align: center;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .review-right-part h5 {
+        font-size: 20px;
+    }
+
+    /* regis tration */
+    .reg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .reg-left-part h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .reg-left-part h3 {
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+
+    .reg-left-part h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .reg-left-part p {
+        text-transform: uppercase;
+        font-size: 23px;
+    }
+
+    /* first-card-item */
+    .first-class {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .first-card-item {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .first-card-container {
+        flex-direction: column;
+    }
+
+    .first-card-text h3 {
+        font-size: 25px;
+        margin-bottom: 14px;
+    }
+
+    .first-card-text p {
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    /* methodology */
+    .methodology {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .method-top-content h2 {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    /* theraphy */
+    .theraphy {
+        height: 450px;
+        background-position: top center;
+    }
+
+    .theraphhy-text-container {
+        height: 450px;
+    }
+
+    .theraphy-text h2 {
+        margin-bottom: 25px;
+        font-size: 40px;
+    }
+
+    .theraphy-text h3 {
+        font-size: 31px;
+        margin-bottom: 25px;
+        margin-left: 50px;
+    }
+
+    /* footer */
+    .footer-content {
+        padding: 40px 0;
+        gap: 50px;
+    }
+
+    .footer-text h4 {
+        font-size: 27px;
+        margin-bottom: 18px;
+    }
+
+    .social-icon-container .fa-brands {
+        padding: 8px;
+    }
+
+    .copyright {
+        padding: 18px 0;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .first-class-btn a {
+        color: white;
+        padding: 0;
+    }
+
+    .logo-part .logo p {
+        font-size: 35px;
+    }
+
+    .logo-part .logo img {
+        height: 50px;
+    }
+
+    .nav-links ul li a {
+        font-size: 16px;
+    }
+
+    .nav-links ul li {
+        margin-bottom: 12px;
+    }
+
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .nav-links ul {
+        padding-top: 10px;
+    }
+
+    .logo-part .toggler-main {
+        top: 30px;
+        right: 15px;
+        font-size: 25px;
+    }
+
+    /* banner  */
+    .first-class-btn a {
+        color: white;
+        padding: 0;
+    }
+
+    .banner {
+        background-size: 180% 100%;
+    }
+
+
+    .banner-text h1 {
+        color: #ffff;
+        font-size: 27px;
+        margin-bottom: 18px;
+    }
+
+    .banner-text h1 span {
+        color: #c62a6b;
+    }
+
+    .banner-text h2 {
+        color: #ffffffdb;
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+
+    /* .all-btn a {
+        border: 2px solid #e5e5e5;
+        color: #ffffffeb;
+        font-size: 15px;
+        padding: 9px 15px;
+    } */
+
+    .philo-left p {
+        font-size: 16px;
+    }
+
+    /* yoga-class */
+    .yoga-text p {
+        font-size: 16px;
+    }
+
+    /* yfb */
+    .yfb-left h2 span {
+        padding: 0 1px;
+    }
+
+    .yfb-left h2 {
+        font-size: 35px;
+        margin-bottom: 26px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .yfb-left .para2 {
+        display: none;
+    }
+
+    .yfb-right {
+        width: 61%;
+    }
+
+    .yfb-left p {
+        font-size: 16px;
+    }
+
+    /* review */
+    .review-img img {
+        height: 254px;
+        width: 255px;
+    }
+
+    .review-right-part p {
+        text-align: center;
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .review-right-part h5 {
+        font-size: 17px;
+        text-align: right;
+        margin-right: 30px;
+    }
+
+    /* registration */
+    .reg-left-part h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .reg-left-part h3 {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+
+    .reg-left-part p {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .reg-btn {
+        margin-top: 25px;
+    }
+
+    /* first-card */
+    .first-card-text p {
+        color: white;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .first-card-text h3 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    /* methodology */
+    .method-top-content h2 {
+        margin-bottom: 35px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .method-right {
+        width: 55%;
+    }
+
+    .method-left p {
+        font-size: 16px;
+    }
+
+    .method-btn {
+        margin-top: 30px;
+    }
+
+    /* theraphy */
+    .theraphy {
+        height: 400px;
+        background-position: top center;
+        background-size: 116% 100%;
+    }
+
+    .theraphhy-text-container {
+        height: 400px;
+    }
+
+    .theraphy-text h2 {
+        margin-bottom: 25px;
+        font-size: 35px;
+    }
+
+    .theraphy-text h3 {
+        font-size: 25px;
+        margin-bottom: 25px;
+        margin-left: 50px;
+    }
+
+    /* footer */
+    .footer-text h4 {
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+
+    .social-icon-container .fa-brands {
+        padding: 7px;
+    }
+
+    .copyright {
+        padding: 15px 0;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:489px) {
+    .all-btn a {
+        padding: 6px 10px;
+        font-size: 15px;
+    }
+
+    .first-class-btn a {
+        color: white;
+        padding: 0;
+    }
+
+    .philo-left h2 {
+        font-size: 30px;
+    }
+
+    .yfb-left h2 {
+        font-size: 30px;
+        margin-bottom: 26px;
+    }
+
+    .review-img img {
+        height: 196px;
+        width: 197px
+    }
+
+    .review-right-part p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .review-right-part h5 {
+        font-size: 16px;
+        text-align: right;
+        margin-right: 30px;
+    }
+
+    /* registration */
+    .reg-left-part h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .reg-left-part h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .first-card-item {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .first-card-text h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .first-card-text p {
+        color: white;
+        margin-bottom: 13px;
+    }
+
+
+    .method-top-content h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .method-btn {
+        margin-top: 35px;
+    }
+
+    /* footer */
+    .footer-content {
+        gap: 35px;
+    }
+}
